@@ -25,11 +25,14 @@ body {
     font-size: 16px;
     color: #666;
 }
+#option a:hover{
+    color:black;
+}
 .logo img{
    height: 55px;
    padding-top: 10px;
    margin-left: 157px;
-   
+   cursor: pointer;
 }
 .user {
     padding-left: 1167px;
@@ -47,6 +50,7 @@ body {
     position: absolute;
     margin-top: 340px;
     margin-left: 60px;
+    cursor: pointer;
 }
 
 .submain h1{
@@ -60,30 +64,36 @@ body {
     width: 100%;
     display: flex;
     padding: 10px 5px;
-    margin-left: 580px;
+    margin-left: 600px;
+
 }
 .models li{
     display: flex;
     padding: 10px 10px;
     text-align: center;
     font-size: 15px;
+    cursor: pointer;
 }
 #car img{
      height: 350px;
-     margin-left: 330px;
+     margin-left: 245px;
 }
 #modelprice img{
      height: 100px;
      margin-left: 400px;
 }
-#arrow p{
-      margin-left: 300px;
-      font-size: 40px;
-      margin-top: -20px;
+.arrow {
+    margin-top: -50px;
+    margin-bottom: 66px;
+}
+.leftarrow {
+    margin-left: 323px;
+    height: 20px;
+  
     }
-#arrow h6{
+.rightarrow {
     margin-left: 1300px;
-    font-size: 40px;
+    height: 20px;
     margin-top: -100px;
 }
 .click{
@@ -124,6 +134,7 @@ body {
     padding: 20px;
     padding-top: 100px;
     display:inline-block;
+    cursor: pointer;
 }
 .layoutimg1 {
     display: flex;
@@ -153,6 +164,7 @@ margin-left: 20px;
     padding: 20px;
     margin-top: 30px;
     display:inline-block;
+    cursor: pointer;
 }
 .layoutimg2 h4{
     margin-top: -20px;
@@ -197,6 +209,7 @@ margin-left: 20px;
     padding: 10px;
     padding-top: 100px;
     display:inline-block;
+    cursor: pointer;
 }
 .secondimg1{
     text-align: center;
@@ -209,6 +222,7 @@ margin-left: 20px;
     padding: 10px;
     padding-top: 100px;
     display:inline-block;
+    cursor: pointer;
 }
 .news{
     font-size: 16px;
